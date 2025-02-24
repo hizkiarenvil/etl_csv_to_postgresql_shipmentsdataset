@@ -71,8 +71,8 @@ pip install -r requirements.txt
 
    ```env
    DB_NAME=train
-   DB_USER=postgre
-   DB_PASSWORD=postgre
+   DB_USER=user
+   DB_PASSWORD=password
    DB_HOST=localhost
    DB_PORT=5432
    ```
