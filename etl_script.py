@@ -22,8 +22,8 @@ load_dotenv()
 # Database connection configuration
 DB_CONFIG = {
     'dbname': os.getenv('DB_NAME', 'train'),
-    'user': os.getenv('DB_USER', 'postgre'), 
-    'password': os.getenv('DB_PASSWORD', 'postgre'),
+    'user': os.getenv('DB_USER', 'user'),  # Change with your own user 
+    'password': os.getenv('DB_PASSWORD', 'password'), # Change with your own password
     'host': os.getenv('DB_HOST', 'localhost'),
     'port': os.getenv('DB_PORT', '5432')
 }
